@@ -1,0 +1,10 @@
+ 
+
+Separazione chiara delle responsabilità: 
+
+     variables.css: Solo definizioni di tema
+     layout.css: Struttura della pagina
+     components.css: Elementi riutilizzabili
+     animations.css: Animazioni e transizioni
+     responsive.css: Media query
+     

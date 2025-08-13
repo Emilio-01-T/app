@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #10a37f;
+  --primary-hover: #0d8f6f;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f8;
+  --bg-tertiary: #e5e5e5;
+  --text-primary: #000000;
+  --text-secondary: #6e6e80;
+  --border-color: #e5e5e5;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --hover-bg: #f0f0f0;
+  --message-bg-user: #10a37f;
+  --message-bg-agent: #f7f7f8;
+  --input-bg: #ffffff;
+  --sidebar-bg: #f7f7f8;
+  --radius: 8px;
+  --transition: all 0.2s ease;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #343541;
+  --bg-secondary: #444654;
+  --bg-tertiary: #2a2b32;
+  --text-primary: #ececf1;
+  --text-secondary: #a0a0a0;
+  --border-color: #444654;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --hover-bg: #3e3f47;
+  --message-bg-agent: #444654;
+  --input-bg: #40414f;
+  --sidebar-bg: #202123;
+}

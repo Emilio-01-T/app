@@ -1,0 +1,61 @@
+
+AI DOCS VELOCE :[
+
+File CSS - Documentazione Rapida 
+styles/theme.css 
+
+     Scopo: Definire variabili CSS per temi chiari/scuri
+     Variabili principali: --primary-color, --bg-primary, --text-primary
+     Selettori: :root per tema chiaro, [data-theme="dark"] per tema scuro
+     
+
+styles/layout.css 
+
+     Scopo: Stili per layout principale (sidebar, chat container)
+     Componenti principali: .sidebar, .main-chat, .chat-header
+     Responsive: Media queries per mobile/tablet/desktop
+     
+
+styles/components.css 
+
+     Scopo: Stili per componenti riutilizzabili
+     Componenti: .message, .chat-input, .button, .avatar
+     Animazioni: @keyframes per typing, slideIn, pulse
+     
+
+Riepilogo per Developer Junior 
+Flusso Dati: 
+
+     Utente interagisce → Componenti UI (Button, Input)
+     Stato gestito → Hook (useChatHistory, useWebSocket)
+     Dati persistenti → LocalStorage via useLocalStorage
+     Comunicazione backend → WebSocket per messaggi real-time
+     Tema globale → ThemeContext per styling coerente
+     
+
+Pattern Utilizzati: 
+
+     Custom Hooks: Per logica riutilizzabile
+     Context API: Per stato globale (tema)
+     Component Pattern: Componenti riutilizzabili e modulari
+     Container Pattern: Separazione tra logica e presentazione
+     
+
+Best Practices: 
+
+     TypeScript: Tipizzazione forte per tutto il progetto
+     React Hooks: Gestione stato ed effetti collaterali
+     CSS Variables: Theming dinamico
+     Responsive Design: Media queries per tutti i dispositivi
+     Error Handling: Try-catch e validazioni
+     Performance: useEffect con dipendenze corrette
+     
+
+Struttura Chiara: 
+
+     types/: Definizioni TypeScript
+     hooks/: Logica riutilizzabile
+     components/: Componenti UI organizzati per categoria
+     contexts/: Stato globale
+     `styles/**: CSS modularizzato
+]
